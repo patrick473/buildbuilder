@@ -1,0 +1,30 @@
+/*
+used colors
+Swain Theme
+#262626 --background
+#018DFF --highlight
+#e7e7e7 --highlighter
+#113761 --lightbackground
+#181a1c --secondbackground
+
+*/
+:root{
+    --background: #262626;
+    --highlight:#018DFF;
+    --highlighter:#e7e7e7;
+    --lightbackground:#113761;
+    --secondbackground:#181a1c ;
+}
+html{
+    background-color: var(--secondbackground);
+}
+#mainContent{
+    background-color: var(--background);
+    height: 100%;
+}
+.championIcon{
+    width:60px;
+}
+.championIconPic{
+    width:100%;
+}
